@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156df715-cf73-4f44-9b10-bb5ddee0183f" name="Changes" comment="Codice pubblico per l'utilizzo di Java e JDBC per interagire con una base di dati su MySQL.">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UniversApp_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/AddRows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/CreateDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/CreateTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/SelectWhere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/SortRows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tech/universapp/UpdateCR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UniversApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySql.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659716061459</updated>
     </task>
+    <task id="LOCAL-00001" summary="Codice pubblico per l'utilizzo di Java e JDBC per interagire con una base di dati su MySQL.">
+      <created>1659867161342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659867161342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
