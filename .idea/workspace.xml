@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="156df715-cf73-4f44-9b10-bb5ddee0183f" name="Changes" comment="Codice pubblico per l'utilizzo di Java e JDBC per interagire con una base di dati su MySQL.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tech/universapp/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tech/universapp/ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tech/universapp/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tech/universapp/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tech/universapp/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tech/universapp/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tech/universapp/UpdateCR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tech/universapp/UpdateCR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tech.universapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UpdateCR">
     <configuration name="MySql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tech.universapp.mysql.MySql" />
       <module name="UniversApp" />
@@ -64,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpdateCR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tech.universapp.UpdateCR" />
+      <module name="UniversApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tech.universapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpdateCR" />
         <item itemvalue="Application.MySql" />
       </list>
     </recent_temporary>
@@ -86,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659867161342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Codice pubblico per l'utilizzo di Java e JDBC per interagire con una base di dati su MySQL.">
+      <created>1659871121436</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659871121436</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +142,11 @@
           <line>24</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tech/universapp/UpdateCR.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -124,6 +155,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UniversApp$UpdateCR.ic" NAME="UpdateCR Coverage Results" MODIFIED="1663259865960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tech.universapp.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UniversApp$MySql.ic" NAME="MySql Coverage Results" MODIFIED="1659806003482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tech.universapp.mysql.*</FILTER>
     </SUITE>

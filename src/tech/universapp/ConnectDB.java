@@ -15,9 +15,9 @@ public class ConnectDB {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
             System.out.println("Collegamento effettuato");
         }
-            catch (SQLException e) {
-                System.out.println("Si è verificato un problema nella connessione a MySQL.");
-                Logger.getLogger(ConnectDB.class.getName()).log(Level.SEVERE, null, e);
-            }
+        catch (SQLException e) {
+            System.out.println("Si è verificato un problema nella connessione a MySQL.");
+            Logger.getLogger(ConnectDB.class.getName()).log(Level.SEVERE, null, e);
+        }
     }
 }

@@ -28,7 +28,6 @@ public class Select {
                     System.out.println("Eta'= " + rs.getInt("Eta"));
                     System.out.println("Reddito= " + rs.getInt("Reddito"));
                     System.out.println("--------------------------------------");
-
                 }
             }
             catch (SQLException e) {

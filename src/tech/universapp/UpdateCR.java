@@ -20,22 +20,22 @@ public class UpdateCR {
             PreparedStatement pstmt = conn.prepareStatement(UPDATE)){
             //disabilito autocommit
             conn.setAutoCommit(false);
-            pstmt.setInt(1, 25);
-            pstmt.execute();
             Savepoint safe=conn.setSavepoint();
+            pstmt.setInt(1, 27);
+            pstmt.execute();
+
 
             //Mostra le ennuple presenti
             try (ResultSet rs = stmt.executeQuery(SELECT)) {
-                System.out.println("UPDATE Reddito=Reddito*1.1 con condizione Reddito < 25 come transazione");
-                boolean RedditoOver = false;
-                //Verifico se dopo l'aumento del Reddito ho superato 25
+                System.out.println("UPDATE Reddito=Reddito*1.1 con condizione Reddito < 27 come transazione");
+                boolean RedditoOver=false;
+                //Verifico se dopo l'aumento del Reddito ho superato 27
                 while (rs.next()) {
-                    if (rs.getInt("Reddito") > 25) {
-                        System.out.println("Uno dei Redditi sta per essere aggiornato ad un valore > 25!");
+                    if (rs.getInt("Reddito") > 27) {
+                        System.out.println("Uno dei Redditi sta per essere aggiornato ad un valore > 27!");
                         System.out.println("Effettuato rollback!");
                         conn.rollback(safe);
-                    } else {
-                        RedditoOver = true;
+                        RedditoOver=true;
                         break;
                     }
                 }
