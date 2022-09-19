@@ -12,7 +12,7 @@ public class SortRows {
         //Ordinare ennuple
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
              Statement stmt = conn.createStatement()){
-            String Query= "SELECT * FROM Persone ORDER BY Reddito DESC";
+            String Query= "SELECT * FROM Persone ORDER BY Reddito ASC";
             try (ResultSet rs = stmt.executeQuery(Query)) {
                 while (rs.next()) {
                     System.out.println("--------------------------------------");
